@@ -1,10 +1,7 @@
 ---
 layout: post
-title: Erick Marcia!
+title: MI CV!
 ---
-
-Erick Marcia
-Analista Programador
 
 # Sobre mi
 
