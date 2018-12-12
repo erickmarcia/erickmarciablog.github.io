@@ -6,10 +6,11 @@ permalink: /about/
 
 Some information about you!
 
-### More Information
+### Puedes ver mi página web
 
 A place to include any other types of information that you'd like to include about yourself.
 
-### Contact me
+### Contáctame
 
-[email@domain.com](mailto:email@domain.com)
+[email@domain.com](mailto:mar_cia14@hotmail.com)
+[email@domain.com](mailto:erickmarcia14@gmail.com)
