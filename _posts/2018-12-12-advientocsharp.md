@@ -4,8 +4,7 @@ title: C# y Devexpress!
 ---
 ![Acordeon](..\\images\\Blog\\banner.png)
 
-Este artículo hace parte de una iniciativa genial: el primer calendario de adviento de C# español. Cada día, durante 9 días, dos artículos nuevos sobre C# serán compartidos por la comunidad. Esta es mi contribución.
-__________________________________________________________________
+> Este artículo hace parte de una iniciativa genial: el primer calendario de adviento de C# español. Cada día, durante 9 días, dos artículos nuevos sobre C# serán compartidos por la comunidad. Esta es mi contribución.
 
 Hace un poco mas de cinco años que conoci **C#** y junto a el **Devexpress**, era mi primer trabajo sin experiencia alguna y frente a un mundo lleno de nuevos retos, había realizado pequeños proyectos de clases con visual basic pero esto era totalmente diferente y más aún cuando mire el poder que tenía y lo que se podia hacer al ver los controles que ofrecía Devexpress y su integración con C#, creo que es por esto que le tengo tanto apreció a este lenguaje pues fue quien me dio la oportunidad de hoy poder trabajar como programador, es por eso que hoy les quiero contar un poco sobre este fremework y su integración con C#.
 
