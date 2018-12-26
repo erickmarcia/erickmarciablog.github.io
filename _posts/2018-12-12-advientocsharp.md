@@ -27,7 +27,7 @@ Para crear aplicaciones similares para Windows Forms, primero creamos un nuevo c
 
 * Un control de acordeón para la navegación, con un nuevo estilo de menú de hamburguesa aplicado.
   
-![Menu Hamburguesa](..\\images\\Blog\\menu.png)
+![Menu Hamburguesa](..\\images\\Blog\\Menu.png)
 
 * Fluent Design Form Control toma el control del área de encabezado del formulario y le permite agregar botones, editores y etiquetas en su superficie.
 
