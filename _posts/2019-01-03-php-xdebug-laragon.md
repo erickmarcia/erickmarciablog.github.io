@@ -2,7 +2,7 @@
 layout: post
 title: Php + XDebug + Laragon + Visual Studio Code!
 ---
-![Banner](..\\images\\Blog\\banner.png)
+![Banner](..\\images\\Blog\\bannerPhpXdebug.png)
 
 Como programador una de las opciones que menos me gusta pero que realmente es necesario es el debug, mas en los casos cuando el desarrollo falla y no tienes ni la minima idea de como resolverlo.
 
