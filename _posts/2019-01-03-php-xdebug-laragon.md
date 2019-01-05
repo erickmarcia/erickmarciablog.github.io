@@ -144,7 +144,7 @@ Las extensiones las buscaremos usando el icono de **Extensiones** del menú de l
 
 8) Pulsamos el botón de Iniciar depuración, y después abrimos el navegador con la dirección de nuestra página a depurar.
 
-    ![Laragon-Xdebug](..\\images\\Blog\\Php\\Xdebug\\9-PhpDebug.png)
+   ![Laragon-Xdebug](..\\images\\Blog\\Php\\Xdebug\\9-PhpDebug.png)
 
 Cuando el navegador empiece a cargar la página, Visual Studio Code tomará el control y nos permitirá ir depurando paso a paso usando las típicas herramientas de depuración.
 
