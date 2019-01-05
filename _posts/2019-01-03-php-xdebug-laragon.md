@@ -28,7 +28,7 @@ Para ello, necesitaremos descargar la versión de Xdebug, adecuada a nuestra ver
 
 Empezaremos averiguando que versión de Xdebug nos corresponde para la instalación de PHP de nuestra máquina. En este post utilizaremos Laragon pero funciona igual si tienes instalado XAMPP el proceso es muy sencillo, tan solo tenemos que abrir el navegador y escribiremos en la barra de direcciones localhost, y en el menú de la página que aparecerá pulsaremos la opción de PHPInfo.
 
-![Laragon-Xdebug-Phpinfo](..\\images\\Blog\\Php\\Xdebug\\01-xdebug.png)
+![LaragonXdebugPhpinfo](..\\images\\Blog\\Php\\Xdebug\\01-xdebug.png)
 
 ## Cómo agregar Xdebug a Laragon
 
@@ -39,39 +39,39 @@ Si tienes problemas en cargar esta pantalla puedes realizar los siguientes pasos
 3) En el menú desplegable selecciona Quick Setting.
 4) Selecciona xdebug.
 
-![Laragon-Xdebug](..\\images\\Blog\\Php\\Xdebug\\1-xdebug.png)
+![LaragonXdebug1](..\\images\\Blog\\Php\\Xdebug\\1-xdebug.png)
 
 Aparecerá una advertencia indicando si necesitamos ayuda para agregar Xdebug a Laragon.
 
-![Laragon-Xdebug](..\\images\\Blog\\Php\\Xdebug\\2-xdebug.png)
+![LaragonXdebug2](..\\images\\Blog\\Php\\Xdebug\\2-xdebug.png)
 
 Nota: al aceptar la advertencia nos redireccionará al siguiente [Link](https://forum.laragon.org/topic/264/tutorial-how-to-add-xdebug-to-laragon), en el cual nos muestra el método para agregar Xdebug a Laragon usando phpinfo() y asistente de Xdebug.
 
 ## Usando de phpinfo () y asistente de Xdebug
 
-![Laragon-Xdebug](..\\images\\Blog\\Php\\Xdebug\\3-xdebug.png)
+![LaragonXdebug3](..\\images\\Blog\\Php\\Xdebug\\3-xdebug.png)
 
 1) Copie todo el contenido de phpinfo():  
    [http://localhost/?Q=info](http://localhost/?Q=info)
-   ![Laragon-Xdebug](..\\images\\Blog\\Php\\Xdebug\\4-xdebug.png)
+   ![LaragonXdebug4](..\\images\\Blog\\Php\\Xdebug\\4-xdebug.png)
    > Tips: Puedes Seleccionar toda la información con solo presionar **Ctrl + A**.
 
 2) Pegue los datos copiados al formulario en la página del Asistente de Xdebug:
    [http://localhost/?Q=info](http://localhost/?Q=info)
-   ![Laragon-Xdebug](..\\images\\Blog\\Php\\Xdebug\\5-xdebug.png)
+   ![LaragonXdebug5](..\\images\\Blog\\Php\\Xdebug\\5-xdebug.png)
    > Tips: Asegúrese de que al momento de pegar la información de phpInfo() en el formulario de Xdebug borrar los espacios al inicio y final.
 
 3) Haga clic en **"Analyse my phpinfo() output."**
-   ![Laragon-Xdebug](..\\images\\Blog\\Php\\Xdebug\\6-xdebug.png)
+   ![LaragonXdebug6](..\\images\\Blog\\Php\\Xdebug\\6-xdebug.png)
 
 4) Una vez concluido estos pasos se nos muestra las instrucciones que necesitaremos para usar la extensión Xdebug.
-   ![Laragon-Xdebug](..\\images\\Blog\\Php\\Xdebug\\7-xdebug.png)
+   ![LaragonXdebug7](..\\images\\Blog\\Php\\Xdebug\\7-xdebug.png)
 
 5) Tal y como nos sugiere debemos descargar la extensión de Xdebug (en mi caso seria la **php_xdebug-2.6.1-7.2-vc15-x86_64.dll**)
-   ![Laragon-Xdebug](..\\images\\Blog\\Php\\Xdebug\\8-xdebug.png)
+   ![LaragonXdebug8](..\\images\\Blog\\Php\\Xdebug\\8-xdebug.png)
 
 6) Mover o copiar la extensión descargada a la ruta que nos indica **Extensions directory** (en mi caso seria **C:\laragon\bin\php\php-7.2.11-Win32-VC15-x64\ext**)
-    ![Laragon-Xdebug](..\\images\\Blog\\Php\\Xdebug\\9-xdebug.png)
+    ![LaragonXdebug9](..\\images\\Blog\\Php\\Xdebug\\9-xdebug.png)
    >Tips: Esta dirección puede variar según donde tengas instalado Laragon.
 
 7) Ahora editaremos el fichero **C:\laragon\bin\php\php-7.2.11-Win32-VC15-x64\php.ini**, y añadiremos al final las siguientes líneas.
@@ -81,7 +81,7 @@ Nota: al aceptar la advertencia nos redireccionará al siguiente [Link](https://
        xdebug.remote_autostart = 1
        zend_extension=xdebug-2.6.1-7.2-vc15-x86_64
 
-   ![Laragon-Xdebug](..\\images\\Blog\\Php\\Xdebug\\10-xdebug.png)
+   ![LaragonXdebug10](..\\images\\Blog\\Php\\Xdebug\\10-xdebug.png)
       >Tips: el valor de zend_extension debe de ser el que nos indica la página de Xdebug en sus instrucciones.
 
    Si tienes miedo de trastear el archivo de configuración de php.ini puedes realizar los siguientes pasos explicados anterior mente el cual solo agregara la siguiente linea **zend_extension=xdebug-2.6.1-7.2-vc15-x86_64** al archivo php.ini:
@@ -91,11 +91,11 @@ Nota: al aceptar la advertencia nos redireccionará al siguiente [Link](https://
    3) En el menú desplegable selecciona Quick Setting.
    4) Selecciona Xdebug.
 
-   ![Laragon-Xdebug](..\\images\\Blog\\Php\\Xdebug\\1-xdebug.png)
+   ![LaragonXdebug1](..\\images\\Blog\\Php\\Xdebug\\1-xdebug.png)
 
 8) Para verificar que todo el proceso anterior ha tenido éxito, consultaremos otra vez la opción de PHPInfo, y comprobaremos que en el texto que sale al lado de la imagen de **zendengine**, aparece **“with Xdebug”** tal y como se muestra en la siguiente imagen (otra forma de comprobarlo es buscar el texto xdebug en esta página).
 
-   ![Laragon-Xdebug](..\\images\\Blog\\Php\\Xdebug\\11-xdebug.png)
+   ![LaragonXdebug11](..\\images\\Blog\\Php\\Xdebug\\11-xdebug.png)
 
 # Configurando Visual Studio Code para depurar código PHP
 
@@ -104,7 +104,7 @@ Una vez que hemos realizado la instalación de Xdebug ya podemos comenzar a depu
 ## Instalación de PhpDebug
 
 Las extensiones las buscaremos usando el icono de **Extensiones** del menú de la izquierda con forma cuadrada pulsando en la caja de texto **Php Debug** y la instalaremos.
-   ![Laragon-Xdebug](..\\images\\Blog\\Php\\Xdebug\\1-PhpDebug.png)
+   ![Phpdebug1](..\\images\\Blog\\Php\\Xdebug\\1-PhpDebug.png)
    > Tips: Una vez instalado, para asegurarnos de que funciona, pulsaremos el botón azul Recargar. Y si nos aparece, también pulsaremos el botón con el mensaje **“Volver a cargar Window”**.
 
 ## Configuración de PhpDebug en Visual Studio Code
@@ -112,20 +112,20 @@ Las extensiones las buscaremos usando el icono de **Extensiones** del menú de l
 1) En este momento, es cuando abriremos nuestro proyecto (Archivo > Abrir Carpeta).
 2) Después, accederemos a la Vista de depuración:
 
-   ![Laragon-Xdebug](..\\images\\Blog\\Php\\Xdebug\\2-PhpDebug.png)
+   ![Phpdebug2](..\\images\\Blog\\Php\\Xdebug\\2-PhpDebug.png)
    >Tips: Para abrir la vista de depuración, haga clic en el ícono de depuración en la barra de actividad en el lado de Código VS. También puede utilizar la combinación de teclas **Ctrl + Shift + D**.
 
 3) Luego agregaremos una configuración para depurar PHP con Xdebug.
-   ![Laragon-Xdebug](..\\images\\Blog\\Php\\Xdebug\\4-PhpDebug.png)
+   ![Phpdebug3](..\\images\\Blog\\Php\\Xdebug\\4-PhpDebug.png)
    > Tips: En la parte superior hay un selector (2), y a su lado, un engranaje. Al pulsar en el selector nos pedirá que indiquemos el lenguaje a depurar (3).
 
 4) Seleccionaremos el lenguaje a configurar en este caso Php.
-    ![Laragon-Xdebug](..\\images\\Blog\\Php\\Xdebug\\5-PhpDebug.png)
+    ![Phpdebug4](..\\images\\Blog\\Php\\Xdebug\\5-PhpDebug.png)
 
 5) Se abrirá el archivo **launch.json** y mostrara unas líneas de código por defecto, que dejaremos tal cual
-    ![Laragon-Xdebug](..\\images\\Blog\\Php\\Xdebug\\6-PhpDebug.png)
+    ![Phpdebug5](..\\images\\Blog\\Php\\Xdebug\\6-PhpDebug.png)
 6) En nuestro código PHP, agregaremos puntos de interrupción haciendo click a la izquierda del número de línea. Veremos cómo aparecen puntitos rojos en cada línea esto son puntos de interrupción.
-   ![Laragon-Xdebug](..\\images\\Blog\\Php\\Xdebug\\7-PhpDebug.png)
+   ![Phpdebug6](..\\images\\Blog\\Php\\Xdebug\\7-PhpDebug.png)
 
 7) En el archivo setting.json agrega el siguiente código.
 
@@ -144,7 +144,7 @@ Las extensiones las buscaremos usando el icono de **Extensiones** del menú de l
 
 8) Pulsamos el botón de Iniciar depuración, y después abrimos el navegador con la dirección de nuestra página a depurar.
 
-   ![Laragon-Xdebug](..\\images\\Blog\\Php\\Xdebug\\9-PhpDebug.png)
+   ![Phpdebug7](..\\images\\Blog\\Php\\Xdebug\\9-PhpDebug.png)
 
 Cuando el navegador empiece a cargar la página, Visual Studio Code tomará el control y nos permitirá ir depurando paso a paso usando las típicas herramientas de depuración.
 
