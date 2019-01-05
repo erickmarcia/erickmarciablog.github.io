@@ -74,7 +74,6 @@ Nota: al aceptar la advertencia nos redireccionará al siguiente [Link](https://
    ![LaragonXdebug8](..\\images\\Blog\\8-xdebug.png)
 
 6) Mover o copiar la extensión descargada a la ruta que nos indica **Extensions directory** (en mi caso seria **C:\laragon\bin\php\php-7.2.11-Win32-VC15-x64\ext**)
-
     ![LaragonXdebug9](..\\images\\Blog\\9-xdebug.png)
    >Tips: Esta dirección puede variar según donde tengas instalado Laragon.
 
@@ -85,15 +84,15 @@ Nota: al aceptar la advertencia nos redireccionará al siguiente [Link](https://
        xdebug.remote_autostart = 1
        zend_extension=xdebug-2.6.1-7.2-vc15-x86_64
 
-    ![LaragonXdebug10](..\\images\\Blog\\10-xdebug.png)
-      >Tips: el valor de zend_extension debe de ser el que nos indica la página de Xdebug en sus instrucciones.
+  ![LaragonXdebug10](..\\images\\Blog\\10-xdebug.png)
+   >Tips: el valor de zend_extension debe de ser el que nos indica la página de Xdebug en sus instrucciones.
 
-   Si tienes miedo de trastear el archivo de configuración de php.ini puedes realizar los siguientes pasos explicados anterior mente el cual solo agregara la siguiente linea **zend_extension=xdebug-2.6.1-7.2-vc15-x86_64** al archivo php.ini:
+    Si tienes miedo de trastear el archivo de configuración de php.ini puedes realizar los siguientes pasos explicados anterior mente el cual solo agregara la siguiente linea **zend_extension=xdebug-2.6.1-7.2-vc15-x86_64** al archivo php.ini:
 
-   1) En la barra de tareas de windows dale click al icono de Laragon.
-   2) Selecciona PHP
-   3) En el menú desplegable selecciona Quick Setting.
-   4) Selecciona Xdebug.
+      1) En la barra de tareas de windows dale click al icono de Laragon.
+      2) Selecciona PHP
+      3) En el menú desplegable selecciona Quick Setting.
+      4) Selecciona Xdebug.
 
    ![LaragonXdebug1](..\\images\\Blog\\1-xdebug.png)
 
