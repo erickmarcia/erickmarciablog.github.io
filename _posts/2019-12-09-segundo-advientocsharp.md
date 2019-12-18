@@ -20,6 +20,9 @@ Como desarrolladores de aplicaciones modernas esto nos ayudara en nuestras imple
 
 * CueProvideres fácil de usar y tiene solo dos métodos: uno para establecer TextBox el texto de referencia de una, el otro para borrarlo. Para configurar el texto de referencia, llame **SetCue();** para limpiarlo, llame **ClearCue()**. Estas llamadas se colocan mejor en el **OnLoadcontrolador** de su formulario .
 
+> Example:
+> CueProvider.SetCue(TxtEmail.MaskBox, " Example@example.gob.ni");
+
 ### Cómo Funciona
 
 **CueProvider** funciona enviando TextBox el **EM_SETCUEBANNER** mensaje. El mensaje se envía usando la **SendMessage()** API Win32. **EM_SETCUEBANNER** Puede encontrar más información sobre el mensaje en esta página de MSDN.
@@ -52,9 +55,7 @@ using System.Windows.Forms;
         /// </summary>
         /// <param name="textBox">The text box.</param>
         /// <param name="cue">The cue text.</param>
-        public static void SetCue
-         (TextBox textBox,
-          string cue)
+        public static void SetCue (TextBox textBox, string cue)
         {
             SendMessage(textBox.Handle, EM_SETCUEBANNER, 0, cue);
             textBox.ForeColor = System.Drawing.Color.White;
@@ -70,10 +71,7 @@ using System.Windows.Forms;
             SendMessage (textBox.Handle, EM_SETCUEBANNER, 0, string.Empty);
         }
 
-        public static void SetCue(object maskBox, string v)
-        {
-            throw new NotImplementedException();
-        }
+      
     }
 
 
