@@ -6,7 +6,6 @@ title: Xamarin - Conectar un Dispositivo para probar Apps!
 
 > Este artículo hace parte de una iniciativa genial: del primer calendario de Xamarin en español. Cada día, dos artículos nuevos sobre C# serán compartidos por la comunidad. Esta es mi contribución.
 
-
 Conozco de vista Xamarin desde que era parte del Proyecto Mono, pero siempre me dio miedo trastearlo aún cuando ya se habia convertido en Xamarin, pero hasta hace poco he comenzado a practicarlo, practicas que van desde conectar a azure, firebase, o bases de datos internas LiteDB, entre muchas cosas más por lo cual estoy convencido que me falta mucho por aprender.
 
 Pero en este articulo quisiera mostrarle algo que seguro todos los expertos ya saben, pero que los novatos como yo batallamos mucho al iniciar en Xamarin y es el tratar de conectar nuestro dispositivo ya sea un celular, tablet, etc, para ver como se miran nuestras apps en el dispositivo, aunque tengamos un emulador, nosotros queremos quitarnos las ganas de ver nuestra app en el dispositivo, asi que vamos a darle..
@@ -15,7 +14,7 @@ Pero en este articulo quisiera mostrarle algo que seguro todos los expertos ya s
 
 Bueno para iniciar cuando ya tenemos nuestro proyecto cargado, en la parte superior donde se encuentran las opciones de debug popdras ver que solo encontraramuestran las opciones de compilación con simulador que trae integrado Visual.
 
-![Debung Simulador](..\\images\\Blog\\dev-1.png)
+![Debug Simulador](..\\images\\Blog\\dev-1.png)
 
 ## Activar Modo Desarrollador y Depuración USB
 
@@ -51,7 +50,6 @@ Como puede ver, no es demasiado complicado pero que si resulta un dolor de cabez
 Buenos eso ha sido todo ppara este post, nos vemos en el siguiente.
 
 ![Xamarin](..\\images\\Blog\\xamarin-visualStudio.png)
-
 
 # Agradecimimento
 
