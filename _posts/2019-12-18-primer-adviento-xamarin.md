@@ -1,6 +1,6 @@
 ---
 layout: post
-title: C# - Conectar un Dispositivo para probar Apps!
+title: Xamarin - Conectar un Dispositivo para probar Apps!
 ---
 ![Post Xamarin](..\\images\\Blog\\How-to-Debug-Xamarin-Application-on-Visual-Studio-660x420.png)
 
