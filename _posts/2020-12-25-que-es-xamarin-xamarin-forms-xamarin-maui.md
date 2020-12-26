@@ -92,4 +92,4 @@ Parte de la información mostrada en este blog es una recopilación de varias fu
 
 ## ¿Qué es Xamarin.Forms? [docs.microsoft.com](https://docs.microsoft.com/es-es/xamarin/get-started/what-is-xamarin-forms).
 
-![Post Xamarin](..\images\Blog\Que-es-xamarin.png)
+![Post Final Xamarin](..\images\Blog\Que-es-xamarin.png)
