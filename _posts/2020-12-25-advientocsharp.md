@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ¿Qué es: Xamarin - Xamarin.Forms - Xamarin MAUI!
+title: Xamarin - Xamarin.Forms - Xamarin MAUI
 ---
 
 ![Post Xamarin](..\images\Blog\Xamarin-MAUI.png)
